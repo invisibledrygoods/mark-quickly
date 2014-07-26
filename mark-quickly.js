@@ -36,7 +36,7 @@
   if (!convert) {
     throw "no markdown converter found, currently supporting: showdown";
   } else {
-    window.onload = function() {
+    window.addEventListener("onload", function() {
       var scripts = document.getElementsByTagName('script');
 
       for (var i = scripts.length - 1; i >= 0; i--) {
@@ -59,6 +59,6 @@
           script.parentNode.replaceChild(div, script);
         }
       }
-    }
+    });
   }
 })();
