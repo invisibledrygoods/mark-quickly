@@ -24,7 +24,7 @@ How To Use
 
 #### Then include this library
 
-    <script src="//rawgit.net/somecrap"></script>
+    <script src="//cdn.rawgit.com/invisibledrygoods/mark-quickly/97c4bfe90f356ff39baff4664c15c7a4e45e461d/mark-quickly.js"></script>
 
 #### Put some markdown in your body
 
