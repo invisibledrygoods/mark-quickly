@@ -16,8 +16,9 @@ How To Use
 
     var markQuickly = function(input) {
       var output = "";
-      for (var line in input.split('\n')) {
-        output += "<p>" + line + "<\p>";
+      var lines = input.split('\n');
+      for (var i = 0; i < lines.length; i++) {
+        output += "<p>" + lines[i] + "<\p>";
       }
       return output;
     }
